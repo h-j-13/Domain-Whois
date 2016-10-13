@@ -24,7 +24,7 @@
 
 ##last-update：
 
-* 最后更新 ： 2016.９.22
+* 最后更新 ： 2016.9.22
 
 ##about me：
 
@@ -32,4 +32,4 @@
 * Email:h.j.13.new@gmail.com   
 * A student at HITwh    
 *     
-* 2016年９月22日
+* 2016年9月22日
