@@ -1,0 +1,67 @@
+2 2 2 2 2<< whois.godaddy.com  :  dutildenim.com 正常通过
+0 0 0 0 0<< whois.fastdomain.com  :  buildingsheriff.com 查找不到
+2 2 2 2 2<< whois.wildwestdomains.com  :  24-7limoservices.com 正常通过
+2 2 2 2 2<< whois.bluerazor.com  :  dubaicameras.com 正常通过
+2 2 2 2 2<< whois.gomontenegrodomains.com  :  mxfwb.com  正常通过
+0 0 0 0 0<< whois.do-reg.jp  :  ui-vehicle.com  已完成
+0 0 0 0 0<< whois.enetica.com.au  :  womanofstyleandsubstance.com 待检测
+0 0 0 0 0<< whois.aitdomains.com  :  carry-out.com 待检测
+0 0 0 0 0<< whois.misk.com  :  linuxaria.com  出现问题
+0 0 0 0 0<< whois.ibi.net  :  hanwhalife.com 已完成
+2 1 0 0 0<< ewhois.sundns.com  :  duosheji.com 正常通过
+0 0 0 0 0<< whois.bookmyname.com  :  sitew.com unknown host rejected 222.175.198.20
+2 2 2 2 2<< whois.goaustraliadomains.com  :  paradigmnext.com 正常通过
+0 0 0 0 0<< whois.ireg.net  :  p0rno.com 查找不到
+0 0 0 0 0<< whois.networking4all.com  :  adamsoftware.net 已完成
+0 0 0 0 0<< whois.dotroll.com  :  trendy-hairstyles-for-women.com 已完成（另检测到另一个二级服务器）
+1 1 0 0 0<< whois.ownidentity.com  :  nokioteca.net 已完成
+1 1 0 0 0<< whois.51web.hk  :  xhask.com 已完成
+0 0 0 0 0<< whois.serveisweb.com  :  unionliberal.com 已完成
+2 2 1 1 1<< whois.ownregistrar.com  :  giraffe-learning.com 已完成
+3 3 2 2 2<< whois.ksdom.kr  :  cardcok.com 已完成
+3 3 2 2 2<< whois.nayana.com  :  jikgure.com 已完成
+2 2 2 2 2<< whois.gocanadadomains.com  :  09955.com 正常通过
+2 2 2 2 2<< whois.gofrancedomains.com  :  ccanow.com 正常通过
+2 2 2 2 2<< whois.gochinadomains.com  :  dhakatimes24.com 正常通过
+0 0 0 0 0<< whois.allglobalnames.com  :  fimcevrepsol.com 已完成
+0 0 0 0 0<< comnet-whois.humeia.com  :  kaigo-rec.com 已完成
+3 1 1 0 0<< whois.arcticnames.com  :  transitionsquad.com 已完成
+4 2 2 2 2<< whois.8hy.cn  :  konka.com 正常通过
+0 0 0 0 0<< whois.iana.org  :  p.com 暂时出现问题
+0 0 0 0 0<< whois.domains.domreg.lt  :  aga-cad.com 已完成
+0 0 0 0 0<< whois.nordreg.com  :  right-arrow.net 已完成
+2 2 1 1 1<< whois.chinanet.cc  :  mftask.com 已完成
+5 5 4 4 4<< whois.rockenstein.de  :  opitec.com 正常通过
+0 0 0 0 0<< whois.afriregister.com  :  afriregister.com 已完成
+0 0 0 0 0<< whois.oiinternet.com.br  :  ecohospedagem.com 已完成
+0 0 0 0 0<< whois.beartrapdomains.com  :  gotjumped.com 查找不到
+0 0 0 0 0<< whois.internetdomainnameregistrar.org  :  lustagenten.com 已完成
+2 2 1 1 1<< whois.domainprocessor.com  :  mmodal.com 已完成
+0 0 0 0 0<< whois.sunmounta.in  :  yanfabu.com 没有找到
+0 0 0 0 0<< whois.kudo.com  :  tadacip20.com 没有找到
+0 0 0 0 0<< whois.alices-registry.com  :  livebookings.net 已完成
+0 0 0 0 0<< whois.dagnabit.biz  :  99sa1on.net 没有找到
+0 0 0 0 0<< whois.domainnameroute.com  :  9945.com 没有找到
+0 0 0 0 0<< whois.2imagen.net  :  fecebook.com 返回数据拒绝
+0 0 0 0<< whois.namebright.com  :  dotarena.com 没有找到
+0 0 0 0<< whois.turbosite.com.br  :  tvwebcidade.net 已完成
+1 1 0 0<< whois.netdorm.com  :  dnsexit.com 已完成
+2 1 0 0<< whois.sdsns.com  :  hongtour.com 已完成
+0 0 0 0<< whois.ilait.com  :  diasend.com 已完成
+0 0 0 0<< whois.namepanther.com  :  kttuan.com 没有找到
+0 0 0 0<< whois.badger.com  :  wearemy.com 已完成
+0 0 0 0<< whois.binero.se  :  catholic-saints.net 已完成
+0 0 0 0<< whois.dotearth.com  :  rokys.com 已完成
+0 0 0 0<< whois.k8.com.br  :  blogviniciusdesantana.com 没有找到
+0 0 0 0<< whois.asiaregister.com  :  552tl.com 没有找到
+0 0 0 0<< whois.domainsinthebag.com  :  onlinedealwebsite.com 没有找到
+0 0 0 0<< whois.maprilis.com.vn  :  facabook.com 已完成
+0 0 0<< nswhois.domainregistry.com  :  venuebook.com 已完成
+0 0 0<< whois.worldbizdomains.com  :  onlinecasinopaypal.com 已完成
+0 0 0<< whois.portlandnames.com  :  kuhhh.com 没有找到
+0 0 0<< whois.flancrestdomains.com  :  skywow.com 没有找到
+0 0 0<< whois.interlakenames.com  :  jisuwg.com 没有找到
+3 3 2<< whois.domainguardians.com  :  domainagents.com 已完成
+0 0 0<< whois.dynadot8.com  :  dangdangcc.net 没到找到
+0 0 0<< whois.naugus.com  :  cnjwedu.net Please stop abusing this service.
+0 0 0<< whois.boterosolutions.net  :  gmai.com
