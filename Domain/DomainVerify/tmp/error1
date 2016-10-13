@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "DomainVerify.py", line 373, in <module>
+    DB.func('HJ.domains_3', 'org', lines=500000)
+  File "DomainVerify.py", line 307, in func
+    thread_temp.start() 
+  File "/usr/lib/python2.7/threading.py", line 494, in start 
+    _start_new_thread(self.__bootstrap, ())
+thread.error: can't start new thread
+
