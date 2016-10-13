@@ -1,0 +1,29 @@
+无schedul模块,请安装 easy_install schedule
+初始化完成...
+Traceback (most recent call last):
+  File "WhoisMonitor_main.py", line 28, in <module>
+    M.send_mail()
+  File "/home/hj/Nut/桌面/Done -&- hang up/whois_monitor/send_mail.py", line 58, in send_mail
+    server = smtplib.SMTP(smtp_server, 25)  # 连接smtp服务器
+  File "/usr/lib/python2.7/smtplib.py", line 256, in __init__
+    (code, msg) = self.connect(host, port)
+  File "/usr/lib/python2.7/smtplib.py", line 316, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "/usr/lib/python2.7/smtplib.py", line 291, in _get_socket
+    return socket.create_connection((host, port), timeout)
+  File "/usr/lib/python2.7/socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+初始化完成...
+Traceback (most recent call last):
+  File "WhoisMonitor_main.py", line 28, in <module>
+    M.send_mail()
+  File "/home/hj/Nut/桌面/Done -&- hang up/whois_monitor/send_mail.py", line 49, in send_mail
+    WhoisSystemInfo = WM.unionInfo()
+  File "/home/hj/Nut/桌面/Done -&- hang up/whois_monitor/get_info.py", line 137, in unionInfo
+    summaryInfo += self.getClient2Info()
+  File "/home/hj/Nut/桌面/Done -&- hang up/whois_monitor/get_info.py", line 117, in getClient2Info
+    self.client2_process_status = CS.calculateClientSpeed()[1]
+  File "/home/hj/Nut/桌面/Done -&- hang up/whois_monitor/calculate_speed.py", line 62, in calculateClientSpeed
+    clientSpeed_perHour = (max_count - min_count)/23.5  # 客户端平均每小时速度
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
