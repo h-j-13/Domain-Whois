@@ -65,6 +65,7 @@ class spider:
                 elif match2.find("<td>") != -1:
                     TLDinfo['type'] = match2.split('</td>')[0].strip('<td>').strip()
                     TLDinfo['SponsoringOrganisation'] = match2.split('</td>')[1].strip().strip('<td>').strip()
+            # print TLDinfo
             # TLDinfo = spider.getTLDWhoisSrv(**TLDinfo)
             yield TLDinfo   # 转化成一个生成器
             time.sleep(intervalsTime)   # 防Ban
@@ -79,6 +80,8 @@ class spider:
         pattern = re.compile(r'(WHOIS Server:.*)')
         for match in pattern.findall(Text):
             TLDinfo['WhoisSrv'] = match.split('</b>')[1].strip()
+            break
+        print TLDinfo['WhoisSrv']
         return TLDinfo
 
 if __name__ == '__main__':

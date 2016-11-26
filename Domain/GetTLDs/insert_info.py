@@ -19,12 +19,12 @@ class GetTLD:
     """TLD内容更新类"""
     def __init__(self):
         """实例化对象"""
-        self.db = DataBase()    # 实例数据库对象
-        self.INNAspider = spider()  # 实例化一个爬虫对象
-        self.staic = ConfigParser.ConfigParser()  # 实例化配置文件
-        self.staic.read('GetTLDs.conf')
+        self.db = DataBase()                        # 实例数据库对象
+        self.INNAspider = spider()                  # 实例化一个爬虫对象
+        self.staic = ConfigParser.ConfigParser()    # 实例化配置文件
+        self.staic.read('GetTLDs.conf')             # 读取配置文件
         self.Intervals = self.staic.getfloat('Spider', 'getIntervals')   # 获取间隔
-        self.delta = self.staic.getint('Spider', 'delta')   # 更新间隔
+        self.delta = self.staic.getint('Spider', 'delta')       # 更新间隔
         self.INNA_url = 'http://www.iana.org/domains/root/db'   # TLD数据地址
         self.db.get_connect()   # 连接到数据库
 
@@ -40,7 +40,7 @@ class GetTLD:
 
         result = self.db.execute(SQL)
         if result is None:
-            return False
+            return 'False'
         elif result[0][4] == '':
             return 'No-whois'
         else:
@@ -86,16 +86,21 @@ class GetTLD:
         for TLDinfo in self.INNAspider.getTLDinfo(HtmlData, intervalsTime=self.Intervals):
             Curtime = self.__getCurrentTime()
             existFlag = self.__isexist(TLDinfo['TLD'])
-            delta = datetime.timedelta(days=15)     # 更新期限
+            delta = datetime.timedelta(days=1)     # 更新期限
             # 判断应该进行的操作
-            if not existFlag:
+            if existFlag == 'False':   # 不存在
                 TLDinfo = spider.getTLDWhoisSrv(**TLDinfo)
                 SQL = self.__SQL_Generate(**TLDinfo)
                 print "[INSERT]获取了" + str(TLDinfo['TLD']) + "的相关信息"
-            elif existFlag == 'No-whois' or delta < Curtime - existFlag:
+            elif existFlag == 'No-whois':    # 未获得whois
                 TLDinfo = spider.getTLDWhoisSrv(**TLDinfo)
                 SQL = self.__SQL_Generate(GenType='UPDATE', **TLDinfo)
                 print "[UPDATE]更新了" + str(TLDinfo['TLD']) + "的相关信息"
+            elif isinstance(existFlag, datetime.datetime):  # 间隔天数更新
+                if delta < Curtime - existFlag:             # 达到更新间隔
+                    TLDinfo = spider.getTLDWhoisSrv(**TLDinfo)
+                    SQL = self.__SQL_Generate(GenType='UPDATE', **TLDinfo)
+                    print "[UPDATE]更新了" + str(TLDinfo['TLD']) + "的相关信息"
             else:
                 SQL = None
                 print "[ SKIP ]跳过了" + str(TLDinfo['TLD']) + "的相关信息"
@@ -110,10 +115,11 @@ class GetTLD:
                     self.db.db_close()
             self.db.db_commit()  # 一轮循环提交一次事物
 
-
+    def test(self, TLD):
+        print type(self.__isexist(TLD))
 if __name__ == '__main__':
     GT = GetTLD()
-    GT.__isexist('.com')
-    #GT.insertInfo()
+    GT.test('.ax')
+    # GT.insertInfo()
 
 
