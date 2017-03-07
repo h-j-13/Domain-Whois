@@ -1,8 +1,6 @@
 ##Domain＆Ｗhois
 域名及其whois相关内容
 
---------
-
 ##Deatils：
 
 * Whois相关 　　
